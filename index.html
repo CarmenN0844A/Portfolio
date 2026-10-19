@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sigas Paudel | Frontend Developer">
+    <title>Sigas Paudel | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="/" class="logo" aria-label="Sigas home">Sigas Paudel</a>
+            <nav aria-label="Primary navigation">
+                <ul class="nav__list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section id="about" class="hero">
+            <div class="container">
+                <p class="hero__eyebrow">Hello, I'm</p>
+                <h1 class="hero__name">Sigas Paudel</h1>
+                <p class="hero__role">Frontend Developer</p>
+                <p class="hero__bio">I build fast, accessible, responsive web interfaces. Currently mastering HTML,CSS,JS, TS, React and Tailwind CSS. Looking for my first frontend role.</p>
+                <div class="hero__actions">
+                    <a href="#projects" class="btn btn--primary">See my work</a>
+                    <a href="#contact" class="btn btn--outline">Hire me</a>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <p class="section__subtitle">Core technologies I use to build web apps.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span class="skill-icon">🌐</span>
+                        <h3>HTML5</h3>
+                        <p>Semantic structure, accessibility, forms, and ARIA roles.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>CSS3</h3>
+                        <p>Flexbox, Grid, custom properties, and responsive design.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">⚡</span>
+                        <h3>JavaScript</h3>
+                        <p>DOM Manipulation, events, async/await, and APIs</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">🔷</span>
+                        <h3>TypeScript</h3>
+                        <p>Static Typing, interfaces, and types safety.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">⚛️</span>
+                        <h3>React</h3>
+                        <p>Components, props, state, hooks and vite.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon">💨</span>
+                        <h3>Tailwind CSS</h3>
+                        <p>Utility-first styling and responsive layouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--alt" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <p class="section__subtitle">Built step-by-step during my 5-day learning sprint.</p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>Portfolio Site</h3>
+                        <span class="badge">HTML/CSS</span>
+                    </div>
+                    <p>Responsive personal portfolio build with semantic HTML and modern CSS.</p>
+                    <a href="https://github.com/CarmenN0844A/Portfolio" target="_blank" rel="noopener noreferrer">Source Code</a>
+                </article>
+
+                <article class="project-card project-card--upcoming">
+                    <div class="project-header">
+                        <h3>Task Manager</h3>
+                    </div> 
+                    <p>Interactive vanilla Javascript app with localstorage persistence.</p>
+                </article>
+
+                <article class="project-card project-card--upcoming">
+                    <div class="project-header">
+                        <h3>Github Search</h3>
+                    </div>
+                    <p>React app fetching live user data from the Github REST API.</p>
+                </article>
+                
+                <article class="project-card project-card--upcoming">
+                    <div class="project-header">
+                        <h3>Notes App</h3>
+                    </div>
+                    <p>Full CRUD application built with React and TypeScript.</p>
+                </article>
+            </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Contact</h2>
+                <p class="section__subtitle">Let's connect for junior frontend roles.</p>
+
+                <ul class="contact__links">
+                    <li>
+                        <a href="mailto:paudelsigas@gmail.com" class="contact__link">
+                            <span>📧</span>paudelsigas@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CarmenN0844A" target="_blank" rel="noopener noreferrer" class="contact_link">
+                        <span>🐙</span>Github
+                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sigas-paudel-ab0646339/" target="_blank" rel="noopener noreferrer" class="contact_link">
+                            <span>💼</span>LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Built with HTML and CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
